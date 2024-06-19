@@ -1,0 +1,26 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    .imgCont {
+        height: 20rem;
+        width: 20rem;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        border: 0 solid transparent;
+        border-radius: 100%;
+
+        .photo {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

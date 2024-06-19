@@ -1,0 +1,47 @@
+[
+    {
+        "name": "ECS Official Website (2023-24)",
+        "desc": "It was One of my very first projects. I got a wonderful opportunity to work with the technical team of Electronics and Communication Society of NIT Silchar.",
+        "tasks": "Implementing the swiper components, working on the resource hub page and more. Chamber of Secrets is an annual event, basically a riddle type game, organised by ECS through the website. Developing the interfacing as well as working on the logics were some of the tasks we did.",
+        "tech": "React,HTML,CSS,JS,Tailwind,Firebase, SwiperJS etc",
+        "link": "https://www.ecs.college/",
+        "timeline": "August,2023-January,2024",
+        "github": "https://github.com/pragyan4261/ecs-website2023"
+    },
+    {
+        "name": "NITSMUN Official Website (2023-24)",
+        "desc": "I have been a part of the NITSMUN Tech Team since my 2nd Year at college. Working with the technical team to build the website was surely a great experience",
+        "tasks": "Implementing the frontend, integrating the backend, facilitating event registrations and many more.",
+        "tech": "React,HTML,CSS,JS,Mongo, Express etc",
+        "link": "https://www.nitsmun.in/",
+        "timeline": "September,2023-January,2024",
+        "github": "https://github.com/nitsmun/nitsmun2023-24"
+    },
+    {
+        "name": "NITS HACKS 6.0 Official Website",
+        "desc": "NITS HACKS is an annual Hackathon Organised by NIT Silchar. The 6th edition of this grand event was organised jointly by GDSC NITS and Coding Club NITS. Working on this website was a wonderful experience. The website received a lot of appreciation from the people of the campus. Most importantly, working with the team was itself a great experience. This is a website I'm still proud of.",
+        "tasks": "Implementing the navbar, about NITS HACKS, about Tecnoesis Part",
+        "tech": "React,HTML,CSS,JS, SASS",
+        "link": "https://nitshacks.tecnoesis.co.in",
+        "timeline": "January,2024",
+        "github": "https://github.com/gdsc-nits-org/nits-hacks-6.0"
+    },
+    {
+        "name": "Tecnoesis 2024 Official Website",
+        "desc": "While I was working with the NITS-HACKS-6.0 project, another project was going on parallely. It was the Official website for Tecnoesis'24, the annual tecno-management fest of NITS. It helped me a lot to come out of my comfort zones and learn new topics.",
+        "tasks": "Implementing the event resgistration from while integrating the api with it.",
+        "tech": "React,HTML,CSS,JS, SASS",
+        "link": "https://tecnoesis.co.in",
+        "timeline": "January,2024",
+        "github": "https://github.com/gdsc-nits-org/tecnoesis-web"
+    },
+    {
+        "name": "Posua official website 2024",
+        "desc": "Posua is one of the fests of NITS which is popularly regarded as its Spring Fest. Working with the website team was a great experience as it brought up new challenges for me, which helped me to learn a lot new things.",
+        "tasks": "Implementing the entire event page along with the extended view.",
+        "tech": "React,HTML,CSS,JS, SASS",
+        "link": "https://posua24.in/",
+        "timeline": "March,2024",
+        "github": "https://github.com/POSUA-NITS/Posua-2024"
+    }
+]
