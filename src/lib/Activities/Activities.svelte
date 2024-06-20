@@ -5,11 +5,14 @@
 
 <main>
     <div class={styles.activities}>
-        {#each data as item}
-            <div class={styles.hint}>
-                <h1>{item.activity}</h1>
-                <h3>{item.desc}</h3>
-            </div>
-        {/each}
+        <h1 class={styles.heading}>College Activities</h1>
+        <div class={styles.innerParent}>
+            {#each data as item}
+                <div class={styles.item}>
+                    <h1 class={styles.activity}>{item.activity}</h1>
+                    <p class={styles.desc}>{item.desc}</p>
+                </div>
+            {/each}
+        </div>
     </div>
 </main>

@@ -1,0 +1,55 @@
+.techstacks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+
+    .innerParent {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 2rem;
+            width: 5rem;
+            height: 5rem;
+            cursor: pointer;
+
+            &:hover .hint {
+                opacity: 1;
+            }
+
+            .hint {
+                opacity: 0;
+                cursor: pointer;
+                transition: ease 1000ms;
+                background-color: #4544575e;
+                padding: 0.1rem 0.4rem;
+                border: 0 solid transparent;
+                border-radius: 1rem;
+
+                .name {
+                    font-size: 0.6rem;
+                }
+
+                .status {
+                    font-size: 0.6rem;
+                }
+            }
+
+
+            .logo {
+                width: 5rem;
+                height: 5rem;
+                border: 0 solid transparent;
+                border-radius: 5rem;
+            }
+        }
+    }
+}

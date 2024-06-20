@@ -1,0 +1,50 @@
+.academics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+
+    @media screen and (min-width:940px) {
+        flex-direction: row;
+    }
+
+    .part {
+        width: 10rem;
+        text-align: left;
+        border: 1px solid #ffffff;
+        height: 10rem;
+        padding: 2rem;
+        border-radius: 2rem;
+        margin: 2rem;
+        animation-name: rotatory;
+        animation-duration: 1s;
+
+        @keyframes rotatory {
+            0% {
+                transform: rotate(-90deg) scale(0);
+                color: #ffffff00;
+                opacity: 0;
+            }
+
+            100% {
+                transform: rotate(0deg) scale(1);
+                color: #ffffff;
+                opacity: 1;
+            }
+        }
+
+        .inst {
+            font-size: 1rem;
+        }
+
+        .exam {
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+
+        .exam {
+            font-size: 0.8rem;
+        }
+    }
+}

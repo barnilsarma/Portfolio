@@ -10,6 +10,9 @@
                 class={styles.photo}
             />
         </div>
-        <p class={styles.about}>Student | Dev | Pro-crastinator</p>
+        <h1 class={styles.myname}>Barnil Sarma</h1>
+        <p class={styles.about}>
+            Student | Dev | <span class={styles.procrast}>Pro-crastinator</span>
+        </p>
     </div>
 </main>
